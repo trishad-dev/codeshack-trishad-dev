@@ -1,23 +1,29 @@
 # CodeShack Developer Handbook
 
-Welcome to my Developer Handbook, created as part of the CodeShack learning task.
+## Overview
 
-## About This Project
+This repository contains documentation developed as part of the CodeShack learning task. It covers fundamental Git commands, version control concepts, and common development workflows.
 
-This repository documents my learning journey with Git, GitHub, version control, and collaborative development.
+## Repository Contents
 
-## Contents
-
-- [Git Notes](git-notes.md) — Essential Git commands with explanations and examples.
-- [Developer Workflow](developer-workflow.md) — A simple development workflow using Git.
+| File | Description |
+|---|---|
+| `README.md` | Project overview and learning objectives |
+| `git-notes.md` | Essential Git commands, explanations, and examples |
+| `developer-workflow.md` | Steps for managing changes and maintaining project history |
 
 ## Learning Objectives
 
-- Understand version control and Git fundamentals.
-- Track changes using commits.
-- Work with branches and remote repositories.
-- Learn the difference between `git fetch` and `git pull`.
-- Practice a clean and consistent development workflow.
+- Understand the fundamentals of Git and version control.
+- Track changes using staging and commits.
+- Inspect project history and review file differences.
+- Create and manage branches.
+- Synchronise local and remote repositories using Git commands.
+- Understand the role of Git in collaborative software development.
+
+## Scope
+
+The handbook focuses on practical command-line usage, with examples intended to help reinforce the concepts through implementation.
 
 ## Author
 
