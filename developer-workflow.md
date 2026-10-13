@@ -1,8 +1,8 @@
-\# Developer Workflow
+# Developer Workflow
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -10,7 +10,7 @@ A development workflow is a sequence of steps used to make changes, test them, a
 
 
 
-\## 1. Check the Repository Status
+## 1. Check the Repository Status
 
 
 
@@ -26,7 +26,7 @@ git status
 
 
 
-\## 2. Create a Feature Branch
+## 2. Create a Feature Branch
 
 
 
@@ -42,7 +42,7 @@ git switch -c feature/documentation
 
 
 
-\## 3. Make and Review Changes
+## 3. Make and Review Changes
 
 
 
@@ -58,7 +58,7 @@ git diff
 
 
 
-\## 4. Stage Changes
+## 4. Stage Changes
 
 
 
@@ -74,7 +74,7 @@ git add developer-workflow.md
 
 
 
-\## 5. Commit Changes
+## 5. Commit Changes
 
 
 
@@ -90,7 +90,7 @@ git commit -m "Add developer workflow documentation"
 
 
 
-\## 6. Synchronise with the Remote Repository
+## 6. Synchronise with the Remote Repository
 
 
 
@@ -130,7 +130,7 @@ git push
 
 
 
-\## 7. Review Commit History
+## 7. Review Commit History
 
 
 
@@ -146,7 +146,7 @@ git log --oneline
 
 
 
-\## Conclusion
+## Conclusion
 
 
 
