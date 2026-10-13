@@ -1,8 +1,8 @@
-\# Developer Workflow
+# Developer Workflow
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -10,7 +10,7 @@ A development workflow is a sequence of steps used to make changes, test them, a
 
 
 
-\## 1. Check the Repository Status
+## 1. Check the Repository Status
 
 
 
@@ -26,7 +26,7 @@ git status
 
 
 
-\## 2. Create a Feature Branch
+## 2. Create a Feature Branch
 
 
 
@@ -42,7 +42,7 @@ git switch -c feature/documentation
 
 
 
-\## 3. Make and Review Changes
+## 3. Make and Review Changes
 
 
 
@@ -58,7 +58,7 @@ git diff
 
 
 
-\## 4. Stage Changes
+## 4. Stage Changes
 
 
 
@@ -74,7 +74,7 @@ git add developer-workflow.md
 
 
 
-\## 5. Commit Changes
+## 5. Commit Changes
 
 
 
@@ -90,7 +90,7 @@ git commit -m "Add developer workflow documentation"
 
 
 
-\## 6. Synchronise with the Remote Repository
+## 6. Synchronise with the Remote Repository
 
 
 
@@ -130,7 +130,7 @@ git push
 
 
 
-\## 7. Review Commit History
+## 7. Review Commit History
 
 
 
@@ -146,9 +146,15 @@ git log --oneline
 
 
 
-\## Conclusion
+## Importance of Meaningful Commits
 
+Meaningful commit messages describe the changes introduced by a commit. They make project history easier to understand and help collaborators identify when and why a change was made.
 
+Examples of descriptive commit messages include:
 
-A consistent workflow helps maintain organised changes, readable commit history, and safer collaboration through branches and remote repositories.
+- `Add project documentation`
+- `Expand Git command reference`
+- `Improve developer workflow notes`
+
+Commit messages should be concise, specific, and relevant to the changes.
 
