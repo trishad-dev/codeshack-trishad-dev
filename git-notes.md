@@ -1,8 +1,8 @@
-\# Git Notes
+# Git Notes
 
 
 
-\## Introduction
+## Introduction
 
 
 
@@ -10,11 +10,11 @@ Git is a distributed version control system used to track changes in files and c
 
 
 
-\## Essential Git Commands
+## Essential Git Commands
 
 
 
-\### 1. `git init`
+### 1. `git init`
 
 
 
@@ -22,7 +22,7 @@ Initialises a new Git repository in the current directory.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -32,7 +32,7 @@ git init
 
 
 
-\### 2. `git clone`
+### 2. `git clone`
 
 
 
@@ -40,7 +40,7 @@ Creates a local copy of an existing remote repository.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -50,7 +50,7 @@ git clone https://github.com/username/repository.git
 
 
 
-\### 3. `git status`
+### 3. `git status`
 
 
 
@@ -58,7 +58,7 @@ Displays the current branch and the state of tracked and untracked files.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -68,7 +68,7 @@ git status
 
 
 
-\### 4. `git add`
+### 4. `git add`
 
 
 
@@ -76,7 +76,7 @@ Stages file changes for the next commit.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -96,7 +96,7 @@ git add .
 
 
 
-\### 5. `git commit`
+### 5. `git commit`
 
 
 
@@ -104,7 +104,7 @@ Records staged changes as a commit in the repository history.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -114,7 +114,7 @@ git commit -m "Add project documentation"
 
 
 
-\### 6. `git log`
+### 6. `git log`
 
 
 
@@ -122,7 +122,7 @@ Displays the repository's commit history.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -132,7 +132,7 @@ git log --oneline
 
 
 
-\### 7. `git diff`
+### 7. `git diff`
 
 
 
@@ -140,7 +140,7 @@ Shows changes that have not yet been staged.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -160,7 +160,7 @@ git diff --staged
 
 
 
-\### 8. `git push`
+### 8. `git push`
 
 
 
@@ -168,7 +168,7 @@ Uploads local commits to a remote repository.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -182,7 +182,7 @@ The branch name must match the branch being pushed.
 
 
 
-\### 9. `git pull`
+### 9. `git pull`
 
 
 
@@ -190,7 +190,7 @@ Fetches changes from a remote repository and integrates them into the current br
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -200,7 +200,7 @@ git pull origin main
 
 
 
-\### 10. `git fetch`
+### 10. `git fetch`
 
 
 
@@ -208,7 +208,7 @@ Downloads updates from a remote repository without integrating them into the cur
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -218,7 +218,7 @@ git fetch origin
 
 
 
-\### 11. `git branch`
+### 11. `git branch`
 
 
 
@@ -226,7 +226,7 @@ Lists local branches.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -246,7 +246,7 @@ git branch feature/documentation
 
 
 
-\### 12. `git switch`
+### 12. `git switch`
 
 
 
@@ -254,7 +254,7 @@ Switches to another branch.
 
 
 
-\*\*Example:\*\*
+*\*Example:\*\*
 
 ```bash
 
@@ -274,7 +274,7 @@ git switch -c feature/documentation
 
 
 
-\## Conclusion
+## Conclusion
 
 
 
